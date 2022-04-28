@@ -48,11 +48,12 @@ left: 40px;
 border-radius: 80px/90px;
 overflow: hidden;
 white-space: nowrap;
+text-overflow: ellipsis;
 transform: translateY(+130px);
       transition: transform .3s;
       transition-timing-function: ease-in;}
 
-    #three {background-color:rgb(214, 243, 233);  opacity: .9; position: absolute;
+    #three {background-color:rgb(214, 243, 233);  opacity: .5; position: absolute;
         height: 70px;
     width: 70px;
         bottom: 40px;
@@ -62,7 +63,7 @@ transform: translateY(+130px);
       transition: transform .3s;
       transition-timing-function: ease-in;}
 
-    #four {background-color:rgb(214, 243, 233);  opacity: .9; position: absolute;
+    #four {background-color:rgb(214, 243, 233);  opacity: .5; position: absolute;
     height: 70px;
     width: 70px;
         bottom: 40px;
@@ -92,10 +93,11 @@ transform: translateY(+130px);
       transition-timing-function: ease-in;}
       #card:hover #three {transform: translateY(0px);
       transition: transform .4s;
+      opacity: 0.9;
       transition-timing-function: ease-in;}
       #card:hover #four {transform: translateY(0px);
       transition: transform .4s;
-      transition-timing-function: ease-in;}
+      transition-timing-function: ease-in; opacity: 0.9;}
    
         
         
