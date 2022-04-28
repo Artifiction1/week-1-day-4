@@ -6,7 +6,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
-    body {text-align: center; font-family: Arial, Helvetica, sans-serif}
+    
+    body {text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 30pt;
+        font-weight: bold;}
 #card {margin: 100px auto;
         position: relative;
         background-image: url(river.jpg);
@@ -32,20 +34,34 @@ position: relative;}
     border-radius: 80px/90px;
 height: 100px;
 width: 160px;}
-#save {margin-top: 18%;}
+.save {margin-top: 20%;}
 
     #two {background-color:rgb(214, 243, 233); opacity: 1; position: absolute;
-    bottom: 40px;
+        height: 70px;
+    width: 320px;
+        bottom: 40px;
 left: 40px;
-border-radius: 10%;}
+border-radius: 80px/90px;
+overflow: hidden;
+white-space: nowrap;}
+
     #three {background-color:rgb(214, 243, 233);  opacity: .9; position: absolute;
-    bottom: 40px;
-left: 80%;
+        height: 70px;
+    width: 70px;
+        bottom: 40px;
+left: 67%;
 border-radius: 50%;}
     #four {background-color:rgb(214, 243, 233);  opacity: .9; position: absolute;
-    bottom: 40px;
-    right:10%;
+    height: 70px;
+    width: 70px;
+        bottom: 40px;
+    right:5%;
     border-radius: 50%;}
+    #bot {margin-top: 5%;
+        margin-right: 20px;
+        border-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;}
 </style>
 
 </head>
@@ -54,11 +70,12 @@ border-radius: 50%;}
     <div id="card">
         <div id="overlay"></div>
             <div id="one">
-                <div id="save">Save</div>                
+                <div class="save">Save</div>                
                 </div>
-            <div id="two">beauty-belleza-beaute-schoenheit.tumblr.com</div>
-            <div id="three"><i style="font-size:24px" class="fa">&#xf093;</i></i></div>
-            <div id="four">...</div>
+            <div id="two">
+                <div id="bot"> beauty-belleza-beaute-schoenheit.tumblr.com</div></div>
+            <div id="three"><div class="save"><i style="font-size:24px" class="fa">&#xf093;</i></i></div> </div>
+            <div id="four"><div class="save">...</div></div>
         
     </div>
 </body>
